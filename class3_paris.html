@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>수업3</title>
+    <style>
+        body {
+            padding:0;
+            margin:0;
+        }
+
+        .section1 {
+            position:relative;
+            width:1440px;
+            height:1082px;
+            margin:auto;
+        }
+
+        .title {
+            width:400px;
+            height:80px;
+            position:absolute;
+            top:78px;
+            left:520px;
+            outline:5px solid black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .title p {
+            font-size: 32px;
+            font-weight: 700;
+        }
+
+        .nav {
+            width:254px;
+            height:29px;
+            position:absolute;
+            top:204px;
+            left:593px;
+        }
+
+        .nav a {
+            text-decoration:none;
+            display:inline-block;
+            padding:4px;
+            font-size:18px;
+            font-weight: 700;
+            color:grey;
+        }
+
+        .selected {
+            color: black !important;
+        }
+
+        .picture {
+            width:1060px;
+            height:707px;
+            position:absolute;
+            top:281px;
+            left:190px;
+            background-image: url(https://plus.unsplash.com/premium_photo-1661919210043-fd847a58522d?q=80&w=2671&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+            background-size:cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class = "section1">
+        <div class = "title">
+            <p>T R A V E L</p>
+        </div>
+
+        <div class = "nav">
+            <a href="./class3_home.html">Home</a>
+            <a href="./class3_seoul.html">Seoul</a>
+            <a href="./class3_tokyo.html">Tokyo</a>
+            <a href="#" class = "selected">Paris</a>
+        </div>
+
+        <div class = "picture">
+        </div>
+    </div>
+</body>
+</html>
