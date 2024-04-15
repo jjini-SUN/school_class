@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>수업7</title>
+    <style>
+        * {
+            padding:0;
+            margin:0;
+            box-sizing: border-box;
+        }
+
+        .button {
+            display:inline-block;
+            width:160px;
+            height:50px;
+            border:1px solid #585858;
+            border-radius: 10px;
+            padding:11px;
+            color:#585858;
+            text-align: center;
+        }
+        .button:hover {
+            background:#EBEBEB;
+            cursor:pointer;
+        }
+
+        .chip{
+            display: inline;
+            background:#EBEBEB;
+            border-radius: 10px;
+            padding:5px 10px;
+            margin:10px;
+        }
+        .chip:hover {
+            background:hotpink;
+            cursor: pointer;
+        }
+
+        .products {
+            display:flex;
+        }
+        .product {
+            width:360px;
+            margin:5px;
+        }
+        .product img {
+            width:100%;
+            border-radius: 10px;
+        }
+
+        .introduce {
+            display:flex;
+            justify-content: space-between;
+            padding:5px;
+        }
+        .introduce p:first-child:hover{
+            text-decoration:underline;
+            cursor: pointer;
+        }
+        .sale {
+            color : red;
+        }
+
+        .items {
+            width:830px;
+            background:beige;
+            display:flex;
+            gap:10px;
+            flex-wrap: wrap;
+        }
+        .item {
+            width:200px;
+            height:250px;
+            outline:1px solid black;
+            
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class = "button">취소</div>
+        <div class = "button">쿠폰적용</div>
+    </div>
+
+    <br>
+
+    <div class = "nav">
+        <p class = "chip">Austrailia</p>
+        <p class = "chip">India</p>
+        <p class = "chip">Voyager</p>
+        <p class = "chip">Motor Homes</p>
+    </div><br>
+
+    <div class = "products">
+        <div class = "product">
+            <img src = "https://webimage.10x10.co.kr/eventIMG/2024/127095/banMoList20240327174746.JPEG/10x10/optimize"></img>
+            <div class = "introduce">
+                <p>특별한 기술력을 담은 샤프에 대한 모든 것 <샤프백과></p>
+                <p class = "sale">쿠폰 10% 할인</p>
+            </div>
+        </div>
+        <div class = "product">
+            <img src = "https://webimage.10x10.co.kr/eventIMG/2024/127249/banMoList20240411101426.JPEG/10x10/optimize"></img>
+            <div class = "introduce">
+                <p>중간고사 벼락치기</p>
+                <p class = "sale">쿠폰 30% 할인</p>
+            </div>
+        </div>
+        <div class = "product">
+            <img src = "https://webimage.10x10.co.kr/eventIMG/2024/127246/banMoList20240408141243.JPEG/10x10/optimize"></img>
+            <div class = "introduce">
+                <p>사랑은 언제나 즐거워 <또앙찌네></p>
+                <p class = "sale">~50% 할인</p>
+            </div>
+        </div>
+    </div>
+
+    <div class = "items">
+        <div class = "item">1</div>
+        <div class = "item">2</div>
+        <div class = "item">3</div>
+        <div class = "item">4</div>
+        <div class = "item">5</div>
+    </div>
+</body>
+</html>
