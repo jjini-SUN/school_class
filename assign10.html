@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>과제10</title>
+    <style>
+        * {
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+
+        .products {
+            display:flex;
+            width: 1090px;
+            margin:20px auto;
+            gap:30px;
+        }
+
+        .product {
+            width:250px;
+            height:480px;
+            /* box-shadow: 3px 3px 3px 3px grey; */
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            position:relative;
+        }
+        .product-img {
+            width: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        
+        .cupon {
+            background:plum;
+            border-radius: 5px;
+            padding:3px 5px;
+            text-align: center;
+            position:absolute;
+            top:7px;
+            left:5px;
+            color:white;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        
+        .cart {
+            width:100%;
+            padding:5px;
+            background:white;
+            border:1px solid black;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .title {
+            overflow:hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            color:darkslategrey;
+        }
+        .price {
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- 7:50~ -->
+    <div class = 'products'>
+        <div class = 'product'>
+            <img class = 'product-img' src = 'https://product-image.kurly.com/cdn-cgi/image/fit=crop,width=360,height=468,quality=85/product/image/56488f3b-f49b-4615-85fd-e89de6e1e03c.jpg?v=0508' alt = '상품 준비중'>
+            <p class = 'cupon'>+10%쿠폰</p>
+            <button class = 'cart'>담기</button>
+            <p class = 'title'>[모로칸오일] 스프링 키트(헤어 트리트먼트 100ml+핸드 크림 프래그런스 오리지널 40ml)</p>
+            <p class = 'price'>62,000원</p>
+        </div>
+        <div class = 'product'>
+            <img class = 'product-img' src = 'https://product-image.kurly.com/cdn-cgi/image/fit=crop,width=360,height=468,quality=85/product/image/136f1ae7-53bc-43ae-b123-ef45fc2517c7.jpg?v=0508' alt = '상품 준비중'>
+            <p class = 'cupon'>+컬리카드쿠폰</p>
+            <button class = 'cart'>담기</button>
+            <p class = 'title'>[달바] 화이트 트러플 퍼스트 스프레이 세럼 100ml 2개 세트 (옐로우 미스트 세럼)</p>
+            <p class = 'price'>59,800원</p>
+        </div>
+        <div class = 'product'>
+            <img class = 'product-img' src = 'https://product-image.kurly.com/cdn-cgi/image/fit=crop,width=360,height=468,quality=85/product/image/81e7bc9e-42a5-420f-905d-2cf4bacaea84.jpeg?v=0508' alt = '상품 준비중'>
+            <button class = 'cart'>담기</button>
+            <p class = 'title'>[켄트] 콤팩트 / 클래식 초극세모 칫솔 4개입 세트 2종 (택1)</p>
+            <p class = 'price'>17,200원</p>
+        </div>
+        <div class = 'product'>
+            <img class = 'product-img' src = 'https://product-image.kurly.com/cdn-cgi/image/fit=crop,width=360,height=468,quality=85/product/image/d1b510d5-6f97-49fa-a07f-44f22162933e.jpg' alt = '상품 준비중'>
+            <p class = 'cupon'>+15%쿠폰</p>
+            <button class = 'cart'>담기</button>
+            <p class = 'title'>[에스티 로더] 갈색병 세럼 50ml 기획세트 (+15ml*3ea 추가 증정)</p>
+            <p class = 'price'>160,650원</p>
+        </div>
+    </div>
+</body>
+</html>
