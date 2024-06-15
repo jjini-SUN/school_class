@@ -1,0 +1,258 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.nav {
+    width:100%;
+    position:fixed;
+    background: white;
+    z-index: 10;
+    display:flex;
+    align-items: center;
+    box-shadow: 0px 4px 4px gray;
+}
+.nav-inner {
+    /* background:skyblue; */
+    width:1280px;
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    position:relative;
+}
+.menu-bar {
+    position:absolute;
+    padding:5px;
+    left:1.8rem;
+    top:2.2rem;
+    font-size: 2rem;
+}
+.menu-bar a {
+    text-decoration: none;
+    color:black;
+}
+
+.nav-inner h3 {
+    font-size: xx-large; /*32px*/
+    padding:5px;
+    text-align: center;
+    margin:1rem;
+    font-weight: 800;
+}
+.nav-inner h3 a {
+    text-decoration: none;
+    color:black;
+}
+.nav-bar {
+    width:50%;
+    display:flex;
+    justify-content: space-between;
+    gap:8rem;
+}
+.nav-bar li {
+    list-style: none;
+    padding:3px 5px;
+    margin:12px;
+    font-weight: bold;
+}
+.nav-bar-list {
+    text-decoration: none;
+    color:#9B9B9B;
+}
+.nav-bar-choose {
+    color : black;
+}
+
+.login {
+    display:flex;
+    align-items: center;
+    position: absolute;
+    right:0.2rem;
+    top:0.5rem;
+}
+.login p {
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding:5px;
+    margin-left:1rem;
+    color:#9B9B9B;
+}
+
+.empty {
+    padding-top:10rem;
+}
+
+.inner {
+    width:1280px;
+    margin:auto;
+}
+.category-banner{
+    height: 360px;
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    box-shadow: 2px 2px 4px 1px gray;
+    display: flex;
+}
+.category-banner div{
+    padding: 10px 20px;
+    flex-grow: 1; 
+    text-decoration: none;
+    color: white;
+    display: flex;
+    box-shadow: 2px 2px 4px 1px gray;
+    align-items: end;
+    transition: flex-grow 0.5s ease 0s;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+}
+.category-1 {
+    background-image: url(https://cdn.pixabay.com/photo/2020/01/05/19/59/ascona-4743964_1280.jpg);
+}
+.category-2 {
+    background-image: url(https://cdn.pixabay.com/photo/2022/10/07/07/13/alps-7504344_1280.jpg);
+}
+.category-3 {
+    background-image: url(https://cdn.pixabay.com/photo/2022/04/12/18/00/europe-7128531_1280.jpg);
+}
+.category-4 {
+    background-image: url(https://cdn.pixabay.com/photo/2012/10/25/23/18/train-62849_1280.jpg);
+}
+.category-5 {
+    background-image: url(https://cdn.pixabay.com/photo/2020/07/18/11/20/waterfall-5416922_1280.jpg);
+}
+.category-6 {
+    background-image: url(https://cdn.pixabay.com/photo/2020/07/17/17/37/cityscape-5414903_1280.jpg);
+}
+.category-banner div:hover{
+/*마우스가 올라가면 차지하는 너비가 다른것보다 2배가 됨.*/
+    flex-grow: 1.5;
+}
+
+.title-3 {
+    width:100%;
+    display:flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top:6rem;
+    position:relative;
+    background: yellow;
+}
+.line-row {
+    width:100%;
+    height:1px;
+    background:black;
+}
+.tt {
+    position: absolute;
+    top:-1.5rem;
+    left:2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    background: white;
+    padding:0 1.5rem;
+}
+
+.category-Diary {
+    width:100%;
+    margin : 2rem 0;
+    display:flex;
+    flex-direction: column;
+    gap:2rem;
+}
+.category-paragraph {
+    display:flex;
+    gap:1.5rem;
+    
+}
+.category-paragraph img {
+    width:290px;
+}
+.category-paragraph p {
+    padding:10px;
+}
+
+.title-2 {
+    width:100%;
+    background:#cccbcb;
+    text-align: center;
+    padding:1rem 0;
+    margin-top: 8rem;
+}
+.title-2 p {
+    font-size: 2rem;
+    color:#171717;
+    font-weight: bold;
+}
+
+.photos {
+    width:100%;
+    display:flex;
+    padding:4rem;
+    gap:2rem;
+    margin-top: 4rem;
+}
+.picture-frame{
+    width:400px;
+    height:440px;
+    background:#d9d9d9;
+    box-shadow: 1px 1px 3px 0px gray;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:1rem;
+    position: relative;
+}
+.picture {
+    width:85%;
+    height:85%;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+}
+.n1 {
+    background-image: url(https://mblogthumb-phinf.pstatic.net/MjAyMzEyMDJfNyAg/MDAxNzAxNTA0MDQ2MDE3.F4mDzvIliKAAGr66_J_xfXWLpLwFELSEhsw18cZhJpYg.GqGAgrmPahALYqqD1pPF9S6O57NCqDCG2RWC5_FUGs8g.JPEG.aarra_maru/SE-199fc0df-902a-11ee-bfb4-b187f439a107.jpg?type=w800); 
+}
+.n2 {
+    background-image: url(https://cdn.pixabay.com/photo/2021/05/23/16/21/switzerland-6276653_1280.jpg);
+}
+.n3 {
+    background-image: url(https://cdn.pixabay.com/photo/2018/12/02/21/47/couple-3852277_1280.jpg);
+}
+.sticker {
+    width:1.5rem;
+    height:3.8rem;
+    background:gray;
+    position:absolute;
+    top:-1rem;
+}
+.photo-name {
+    position:absolute;
+    bottom: 2rem;
+    color:white;
+    font-size: 6rem;
+    font-weight:900;
+    opacity: 0.8;
+    font-style: oblique;
+}
+
+.btn-component {
+    width:100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top:6rem;
+}
+.design-btn {
+    width:180px;
+    background:#171717;
+    color:white;
+    padding:15px 0;
+    text-align: center;
+    border-radius: 15px;
+    font-weight: bold;
+    margin-bottom:2rem;
+}
