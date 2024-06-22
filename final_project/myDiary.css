@@ -39,7 +39,7 @@
     padding:5px;
     text-align: center;
     margin:1rem;
-    font-weight: 800;
+    font-weight: 900;
 }
 .nav-inner h3 a {
     text-decoration: none;
@@ -213,6 +213,7 @@
     background-position: center;
     background-size: cover;
     opacity: 0.9;
+    cursor: pointer;
 }
 .n1 {
     background-image: url(https://mblogthumb-phinf.pstatic.net/MjAyMzEyMDJfNyAg/MDAxNzAxNTA0MDQ2MDE3.F4mDzvIliKAAGr66_J_xfXWLpLwFELSEhsw18cZhJpYg.GqGAgrmPahALYqqD1pPF9S6O57NCqDCG2RWC5_FUGs8g.JPEG.aarra_maru/SE-199fc0df-902a-11ee-bfb4-b187f439a107.jpg?type=w800); 
@@ -255,4 +256,29 @@
     border-radius: 15px;
     font-weight: bold;
     margin-bottom:2rem;
+    cursor: pointer;
 }
+@media screen and (max-width:1028px) {
+    .inner {
+        width:1028px;
+    }
+}
+@media screen and (max-width:768px) {
+    .inner {
+        width:1028px;
+    }
+}
+
+/*font*/
+.jua-regular {
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .black-han-sans-regular {
+    font-family: "Black Han Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  

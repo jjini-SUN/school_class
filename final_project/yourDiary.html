@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YourDiary</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Jua&display=swap" rel="stylesheet">
     <link href = './yourDiary.css' rel = 'stylesheet'>
 </head>
 <body>
     <nav class = 'nav'>
         <div class = 'nav-inner'>
             <p class = 'menu-bar'><a href = '#'>&#9776</a></p>
-            <h3><a href = '#'>TRABEL DIARY</a></h3>
+            <h3><a href = './index.html'>TRABEL DIARY</a></h3>
             <div>
                 <ul class = 'nav-bar'>
                     <li><a href = './index.html' class = 'nav-bar-list nav-bar-choose'>MyDiary</a></li>
@@ -28,7 +31,7 @@
     <div class = 'empty'></div>
 
     <div class = 'inner'>
-        <div class = 'title-2'>
+        <div class = 'title-2 jua-regular'>
             <p>Book Mark</p>
         </div>
 
@@ -96,8 +99,76 @@
         </div>
 
         <div class="search-container">
-            <input type="text" class="search-input" placeholder="검색어를 입력하세요...">
+            <input type="text" class="search-input" placeholder="검색어를 입력하세요.">
             <button class="search-button">검색</button>
+        </div>
+
+        <div class = 'diarys'>
+            <div class = 'diary'>
+                <a href = '#'>
+                    <div class = 'cover-1 cover-img-summer'>
+                        <p class = 'star'>&#10025</p>
+                        <div class = 'cover-2'>
+                            <p>#수영 #여름</p>
+                        </div>
+                    </div>
+                    <div class = 'profile p1'></div>
+                </a>
+            </div>
+
+            <div class = 'diary'>
+                <a href = '#'>
+                    <div class = 'cover-1 cover-img-love'>
+                        <p class = 'star'>&#10025</p>
+                        <div class = 'cover-2'>
+                            <p>#낭만 #도시 #사랑</p>
+                        </div>
+                    </div>
+                    <div class = 'profile p2'></div>
+                </a>
+            </div>
+
+            <div class = 'diary'>
+                <a href = '#'>
+                    <div class = 'cover-1 cover-img-sky'>
+                        <p class = 'star'>&#10025</p>
+                        <div class = 'cover-2'>
+                            <p>#자연 #바다 #하늘</p>
+                        </div>
+                    </div>
+                    <div class = 'profile p3'></div>
+                </a>
+            </div>
+
+            <div class = 'diary'>
+                <a href = '#'>
+                    <div class = 'cover-1 cover-img-choco'>
+                        <p class = 'star'>&#10025</p>
+                        <div class = 'cover-2'>
+                            <p>#달달 #먹거리 #힐링</p>
+                        </div>
+                    </div>
+                    <div class = 'profile p4'></div>
+                </a>
+            </div>
+
+            <div class = 'diary'>
+                <a href = '#'>
+                    <div class = 'cover-1 cover-img-f'>
+                        <p class = 'star'>&#10025</p>
+                        <div class = 'cover-2'>
+                            <p>#바다 #가족</p>
+                        </div>
+                    </div>
+                    <div class = 'profile p3'></div>
+                </a>
+            </div>
+
+            
+        </div>
+
+        <div class = 'btn-component'>
+            <div class = 'design-btn'>내 다이어리 올리기</div>
         </div>
     </div>
 </body>

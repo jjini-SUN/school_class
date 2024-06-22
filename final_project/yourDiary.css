@@ -39,7 +39,7 @@
     padding:5px;
     text-align: center;
     margin:1rem;
-    font-weight: 800;
+    font-weight: 900;
 }
 .nav-inner h3 a {
     text-decoration: none;
@@ -187,6 +187,9 @@
 .p3 {
     background-image: url(https://i.pinimg.com/236x/2f/55/97/2f559707c3b04a1964b37856f00ad608.jpg);
 }
+.p4 {
+    background-image: url(https://i.pinimg.com/236x/a5/e8/4d/a5e84dd8104ba6287b72e16401d173d7.jpg);
+}
 
 .users {
     width:100%;
@@ -204,6 +207,7 @@
     display: flex;
     gap:1.5rem;
     align-items: center;
+    cursor: pointer;
 }
 .name p {
     font-size: 1.5rem;
@@ -221,12 +225,16 @@
     font-size : 2rem;
     font-weight: bold;
     color:#9B9B9B;
+    cursor: pointer;
 }
 
 .search-container {
-    margin-top:8rem;
+    width:100%;
+    margin-top:10rem;
+    margin-bottom: 2rem;
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 10px;
 }
 .search-input {
@@ -256,3 +264,61 @@
     background-color: #0288d1; /* 버튼 호버 시 어두운 하늘색 */
 }
 
+.cover-img-summer {
+    background-image: url(https://cdn.pixabay.com/photo/2018/05/02/17/22/beach-3369140_1280.jpg);
+}
+.cover-img-love {
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/07/07/48/couple-2601156_1280.jpg);
+}
+.cover-img-sky {
+    background-image: url(https://cdn.pixabay.com/photo/2015/11/16/22/39/balloons-1046658_1280.jpg);
+}
+.cover-img-choco {
+    background-image: url(https://cdn.pixabay.com/photo/2020/12/13/13/30/cinnamon-sticks-5828241_1280.jpg);
+}
+.cover-img-f {
+    background-image: url(https://cdn.pixabay.com/photo/2022/08/17/15/46/family-7392843_1280.jpg);
+}
+
+.btn-component {
+    width:100%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.design-btn {
+    width:160px;
+    background:#171717;
+    color:white;
+    padding:15px 0;
+    text-align: center;
+    border-radius: 15px;
+    font-weight: bold;
+    margin-bottom:2rem;
+    margin-top:6rem;
+    cursor: pointer;
+}
+@media screen and (max-width:1028px) {
+    .inner {
+        width:1028px;
+    }
+}
+@media screen and (max-width:768px) {
+    .inner {
+        width:1028px;
+    }
+}
+
+/*font*/
+.jua-regular {
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .black-han-sans-regular {
+    font-family: "Black Han Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
